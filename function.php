@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 function generateNumber() {
     if (!isset($_SESSION['number'])) {
         $_SESSION['number'] = rand(1, 100);

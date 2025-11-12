@@ -26,7 +26,7 @@ function checkGuess($guess, $number) {
     } elseif ($guess > $number) {
         return "Too high!";
     } else {
-        return "Correct! You guessed in " . $_SESSION['attempts'] . " attempts.";
+        return "Number is". $_SESSION['number']." Correct! You guessed in " . $_SESSION['attempts'] . " attempts.";
     }
 }
 ?>
